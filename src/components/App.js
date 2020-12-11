@@ -19,9 +19,10 @@ class App extends React.Component {
   onChangeType = (e) => {
     this.setState({
         filters: {
-          type: e.Target.value
+          type: e.target.value
         }
-      });
+      }
+    );
   }
 
   onFindPetsClick = () => {
